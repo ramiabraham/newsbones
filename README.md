@@ -6,14 +6,14 @@ News Bones: A Newspaper theme for WordPress built with Bones
 -License: WTFPL, GPLv2 or later
 -License URI: http://sam.zoy.org/wtfpl/
 
--
--Special Thanks to:
--Eddie Machado
--Paul Irish & the HTML5 Boilerplate
--Yoast for some WP functions & optimization ideas
--Andrew Rogers for code optimization
--David Dellanave for speed & code optimization
--and several other developers. :)
+
+*Special Thanks to:
+*Eddie Machado
+*Paul Irish & the HTML5 Boilerplate
+*Yoast for some WP functions & optimization ideas
+*Andrew Rogers for code optimization
+*David Dellanave for speed & code optimization
+*and several other developers. :)
 
 
 Original Bones log:
