@@ -7,7 +7,7 @@ News Bones: A Newspaper theme for WordPress built with Bones
 -License URI: http://sam.zoy.org/wtfpl/
 
 
-* Special Thanks to:
+## Special Thanks to:
 * Eddie Machado
 * Paul Irish & the HTML5 Boilerplate
 * Yoast for some WP functions & optimization ideas
@@ -16,22 +16,22 @@ News Bones: A Newspaper theme for WordPress built with Bones
 * and several other developers. :)
 
 
-Original Bones log:
+## Original Bones log:
 
 
--/* v1.25 update */
--- updated custom post type page for translation
--- added => to responsive jquery
--- cleaned up theme tags (which make NO sense, but are best practice, go figure)
--- updated html element to match hb5
--- fixed echo problem on admin.php
--- updated normalize (LESS also had some missing styles so I added them)
--- GetComputedStyle fix for IE (for responsive js)
--- cleaned up mixins (border radius)
--- added translations! (Chinese, Spanish)
--
--/* v1.2 HUGE update */
--- merge responsive version with classic
+#### v1.25 update
+- updated custom post type page for translation
+- added => to responsive jquery
+- cleaned up theme tags (which make NO sense, but are best practice, go figure)
+- updated html element to match hb5
+- fixed echo problem on admin.php
+- updated normalize (LESS also had some missing styles so I added them)
+- GetComputedStyle fix for IE (for responsive js)
+- cleaned up mixins (border radius)
+- added translations! (Chinese, Spanish)
+
+#### v1.2 HUGE update
+- merge responsive version with classic
 -- remove post title from read more link (it's way too long)
 -- removed readme.txt (it was pointless)
 -- organized info for each file called in on the functions page
