@@ -1,6 +1,6 @@
 News Bones
 ==========
-### News Bones: A Newspaper theme for WordPress built with Bones
+### News Bones: A Newspaper theme for WordPress built with the Bones framework
 
 - Author: Rami Abraham
 - License: WTFPL, GPLv2 or later
