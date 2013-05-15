@@ -1,13 +1,23 @@
 News Bones
 ==========
+### News Bones: A Newspaper theme for WordPress built with Bones
 
-## News Bones: A Newspaper theme for WordPress built with Bones
+- Author: Rami Abraham
+- License: WTFPL, GPLv2 or later
+- License URI: http://sam.zoy.org/wtfpl/
+- Demo: [http://themes.rami.nu/?theme-preview=news-bones]
 
--License: WTFPL, GPLv2 or later
--License URI: http://sam.zoy.org/wtfpl/
+Currently, this theme uses three(!) fonts. They're all GPL:
+- League Gothic by League of Movable Type: [http://www.theleagueofmoveabletype.com/league-gothic]
+- Plain Black by Paul Lloyd: [http://www.fontsquirrel.com/fonts/PlainBlack]
+- Genericons by Auttomatic: [http://genericons.com]
+
+Although only two fonts (Genericons and League Gothic) are used more than once in the theme, the third font, Plain Black,
+is used in the main heading, for the site title. I'd love to use an alternative, if possible, and still achieve the same
+effect. The Plain Black font is fairly lightweight, though.
 
 
-### Special Thanks to the original Bones team and contributors:
+#### Special Thanks to the original Bones team and contributors:
 * Eddie Machado
 * Paul Irish & the HTML5 Boilerplate
 * Yoast for some WP functions & optimization ideas
@@ -16,10 +26,10 @@ News Bones
 * and several other developers. :)
 
 
-### Original Bones log:
+#### Original Bones log:
 
 
-#### v1.25 update
+##### v1.25 update
 - updated custom post type page for translation
 - added => to responsive jquery
 - cleaned up theme tags (which make NO sense, but are best practice, go figure)
@@ -30,7 +40,7 @@ News Bones
 - cleaned up mixins (border radius)
 - added translations! (Chinese, Spanish)
 
-#### v1.2 HUGE update
+##### v1.2 HUGE update
 - merge responsive version with classic
 - remove post title from read more link (it's way too long)
 - removed readme.txt (it was pointless)
