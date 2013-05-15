@@ -4,7 +4,7 @@ News Bones
 
 - Author: Rami Abraham
 - License: WTFPL, GPLv2 or later
-- License URI: http://sam.zoy.org/wtfpl/
+- License URI: http://sam.zoy.org/wtfpl/, http://www.gnu.org/licenses/gpl.html
 - Demo: [http://themes.rami.nu/?theme-preview=news-bones]
 
 Currently, this theme uses three(!) fonts. They're all GPL:
