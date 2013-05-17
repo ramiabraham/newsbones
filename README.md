@@ -10,7 +10,7 @@ News Bones
 Currently, this theme uses three(!) fonts. They're all GPL:
 - League Gothic by League of Movable Type: [http://www.theleagueofmoveabletype.com/league-gothic]
 - Plain Black by Paul Lloyd: [http://www.fontsquirrel.com/fonts/PlainBlack]
-- Genericons by Auttomatic: [http://genericons.com]
+- Genericons by Automattic: [http://genericons.com]
 
 Although only two fonts (Genericons and League Gothic) are used more than once in the theme, the third font, Plain Black,
 is used in the main heading, for the site title. I'd love to use an alternative, if possible, and still achieve the same
