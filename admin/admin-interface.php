@@ -4,7 +4,7 @@
 /*-----------------------------------------------------------------------------------*/
 /* Admin Interface
 /*-----------------------------------------------------------------------------------*/
-$functions_path = THEME_ADMIN . '/';
+$functions_path = get_template_directory_uri() . '/admin/';
 function siteoptions_add_admin() {
 
     global $query_string;
