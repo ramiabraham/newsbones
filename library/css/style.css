@@ -620,8 +620,8 @@ small,
 ul,
 ol {
   padding: 0;
-  list-style-type: none;
 }
+
 dd {
   margin: 0;
 }
@@ -977,6 +977,29 @@ hr {display: none;}
 	margin: 4px 0px;
 	padding: 0 4px 4px 4px;
 }
+
+#newsbones-homegrid img { filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+transition: all 0.1s ease-in;
+-moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+}
+
+#newsbones-homegrid img:hover { filter: none;
+-webkit-filter: none;
+-moz-filter: none;
+-ms-filter: none;
+-o-filter: none;
+transition: all 0.1s ease-in;
+-moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+}
+
 
 #newsbones-homegrid-container .odd {
 	background: #ffffff; /* Old browsers */
