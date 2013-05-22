@@ -66,15 +66,24 @@ jQuery(document).ready(function($) {
     }
     
 	
-	// NewsBones jQuery Masonry function
-	jQuery( document ).ready( function( $ ) {
-    $( '#newsbones-homegrid-container' ).masonry( { singleMode: true } );
-} );
-	//end jQuery Masonry function
+		// NewsBones jQuery Masonry function
+	
+	$('#newsbones-homegrid-container').masonry({
+  itemSelector: '#newsbones-homegrid',
+  // set columnWidth a fraction of the container width
+  columnWidth: function( containerWidth ) {
+    return containerWidth / 4;
+  }
+});
+	
+		//end jQuery Masonry function
+	
+	
 	
 	//start Mobile menu
 	jQuery(document).ready(function($){
-
+		
+		$("#menu-topnav").hide();
 	/* prepend menu icon */
 	$('nav').prepend('<div id="menu-icon">Menu</div>');
 	
