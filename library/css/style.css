@@ -971,11 +971,12 @@ hr {display: none;}
 }
 
 #newsbones-homegrid {
+	float:left;
 	border-bottom: 0;
 	width:100%;
 	border-right: 0;
 	margin: 4px 0px;
-	padding: 0 4px 4px 4px;
+	padding: 0 2px 2px 2px;
 }
 
 #newsbones-homegrid img { filter: grayscale(100%);
