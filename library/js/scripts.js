@@ -38,8 +38,8 @@ jQuery(document).ready(function($) {
     */
     
     /* getting viewport width */
-    var responsive_viewport = $(window).width();
-    
+    var responsive_viewport = $(document).width();
+   
     /* if is below 481px */
     if (responsive_viewport < 481) {
     
@@ -47,33 +47,28 @@ jQuery(document).ready(function($) {
     
     /* if is larger than 481px */
     if (responsive_viewport > 481) {
-        
+
+
     } /* end larger than 481px */
     
     /* if is above or equal to 768px */
     if (responsive_viewport >= 768) {
-    
-        /* load gravatars */
-        $('.comment img[data-gravatar]').each(function(){
-            $(this).attr('src',$(this).attr('data-gravatar'));
-        });
         
     }
     
     /* off the bat large screen actions */
     if (responsive_viewport > 1030) {
-        
-    }
-    
+   
+    }//end larger than 1030
+  
+	 
+	 // NewsBones jQuery Masonry function
+	 $('#newsbones-homegrid-container').masonry({
+		itemSelector : '.newsbones-homegrid',
+		singleMode: true });
+
+		
 	
-		// NewsBones jQuery Masonry function
-	
-	$('#newsbones-homegrid-container').masonry({
-  itemSelector: '#newsbones-homegrid',
-  // set columnWidth a fraction of the container width
-  columnWidth: function( containerWidth ) {
-    return containerWidth / 4;
-  }
 });
 	
 		//end jQuery Masonry function
@@ -99,7 +94,7 @@ jQuery(document).ready(function($) {
  
  
  
-}); /* end of as page load scripts */
+
 
 
 /*! A fix for the iOS orientationchange zoom bug.
