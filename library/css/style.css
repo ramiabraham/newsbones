@@ -970,16 +970,17 @@ hr {display: none;}
 #newsbones-homegrid-container {width:100%;
 }
 
-#newsbones-homegrid {
-	float:left;
+.newsbones-homegrid {
+	
 	border-bottom: 0;
-	width:100%;
+	/* width:100%; */
 	border-right: 0;
 	margin: 4px 0px;
 	padding: 0 2px 2px 2px;
+	word-wrap: break-word;
 }
 
-#newsbones-homegrid img { filter: grayscale(100%);
+.newsbones-homegrid img { filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
 -moz-filter: grayscale(100%);
 -ms-filter: grayscale(100%);
@@ -990,7 +991,7 @@ transition: all 0.1s ease-in;
     -webkit-transition: all 0.1s ease-in;
 }
 
-#newsbones-homegrid img:hover { filter: none;
+.newsbones-homegrid img:hover { filter: none;
 -webkit-filter: none;
 -moz-filter: none;
 -ms-filter: none;
@@ -1002,7 +1003,7 @@ transition: all 0.1s ease-in;
 }
 
 
-#newsbones-homegrid-container .odd {
+newsbones-homegrid-container .odd {
 	background: #ffffff; /* Old browsers */
 background: -moz-linear-gradient(top,  #ffffff 0%, #fafafa 49%, #ffffff 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#fafafa), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
@@ -1498,8 +1499,10 @@ a.comment-reply-link:before {
   
 #newsbones-homegrid-container {width:100%;
 }
-#newsbones-homegrid {width:49.6%;
+.newsbones-homegrid {/* width:49.6%; */
 	border-right: 0;
+	float: left;
+	width: 98;
 }
 
 .newsbones-homepage-twitter-wrapper {width: 100%;}  
@@ -1701,7 +1704,8 @@ Small and mid-sized tablets
   /* end .footer-links */
   #newsbones-homegrid-container {width:100%;
 }
-#newsbones-homegrid {width:49.6%;
+.newsbones-homegrid {
+	width:33%;
 	border-right: 1px solid #DDD;
 }
 .newsbones-homepage-twitter-wrapper {width: 100%;} 
@@ -1715,7 +1719,7 @@ Small and mid-sized tablets
 #newsbones-homegrid-container {width:75%;
 }
 
-#newsbones-homegrid {width:25%;
+.newsbones-homegrid { width:25%;
 }
 .newsbones-homepage-twitter-wrapper {width: 25%;
 } 
@@ -1728,8 +1732,8 @@ Small and mid-sized tablets
 #newsbones-homegrid-container {width:75%;
 }
 
-#newsbones-homegrid {width:25%;
-min-width: 150px;
+.newsbones-homegrid {
+	width:25%;
 }
 .newsbones-homepage-twitter-wrapper {width: 25%;
 } 
