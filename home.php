@@ -23,7 +23,7 @@
 								
 
 							
-							<article id="newsbones-homegrid" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+							<article <?php post_class('clearfix newsbones-homegrid'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
 								<header class="article-header">
 
@@ -44,8 +44,7 @@
 								</section> <!-- end article section -->
 
 								<footer class="article-footer">
-									<p class="clearfix"><?php the_tags('<span class="tags">' . __('Tags:', 'bonestheme') . '</span> ', ', ', ''); ?></p>
-
+									<p class="clearfix"></p>
 								</footer> <!-- end article footer -->
 
 								<?php comments_template(); ?>
