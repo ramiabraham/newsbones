@@ -216,10 +216,10 @@ $options[] = array( "name" => __('Hi There!','framework_localize'),
 $options[] = array( "name" => __('News Bones Shortcodes','framework_localize'),
 			"type" => "heading");
 			
-$options[] = array( "name" => __('Available shortcodes for News Bones','framework_localize'),
+$options[] = array( "name" => __('There are no shortcodes bundled with this theme. Why?','framework_localize'),
 			"desc" => "",
 			"id" => $shortname."_shortcodes_docs",
-			"std" => "Shortcodes are currently under construction. But there will be only a few",
+			"std" => "Because one day you might want to switch to a different theme. Learn more.",
 			"type" => "info");					
 
 
