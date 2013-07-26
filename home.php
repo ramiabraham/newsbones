@@ -15,7 +15,7 @@
 			                
 			                
 			                </div>
-						<div id="newsbones-homegrid-container" class="tencol first clearfix" role="main">
+						<div id="newsbones-homegrid-container" class="tencol first clearfix waterfall" role="main">
 						
 						
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
