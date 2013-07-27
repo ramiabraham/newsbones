@@ -63,13 +63,13 @@ jQuery(document).ready(function($) {
   
 	 
 	 // NewsBones jQuery Masonry function
-	 $('#newsbones-homegrid-container').masonry({
-		itemSelector : '.newsbones-homegrid',
-		singleMode: true });
+	// $('#newsbones-homegrid-container').masonry({
+	//	itemSelector : '.newsbones-homegrid',
+	//	singleMode: true });
 
 		
 	
-});
+//});
 	
 		//end jQuery Masonry function
 	
