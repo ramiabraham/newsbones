@@ -712,6 +712,18 @@ span.amp {
 }
 
 /*********************
+POST FORMATS
+*********************/
+
+
+/* Status updates */
+
+.format-status .post-title, .format-status .page-title  {
+display:none;
+}
+
+
+/*********************
 BUTTONS
 *********************/
 .button,
