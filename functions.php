@@ -212,12 +212,21 @@ function romanNumerals($num)
     return $res;
     }
 
-//Enqueue jQuery Masonry for the homepage article grid
+//Enqueue jQuery waterfall and zepto
 
-function newsbones_mason_script() {
-    wp_enqueue_script( 'jquery-masonry' );
+function newsbones_waterfall_and_zepto_scripts() {
+		wp_register_script( 'zepto_for_newsbones', get_template_directory_uri() . '/library/js/libs/zepto.js' );
+		wp_enqueue_script( 'zepto_for_newsbones' );
+		
+		wp_register_script( 'waterfall_for_newsbones', get_template_directory_uri() . '/library/js/libs/jquery.waterfall.js' );
+		wp_enqueue_script( 'waterfall_for_newsbones' );
+
 }
-add_action( 'wp_enqueue_scripts', 'newsbones_mason_script' ); 
+
+
+add_action( 'wp_enqueue_scripts', 'newsbones_waterfall_and_zepto_scripts' ); 
+
+
 
 //Change homepage thumbnail size to 320x240 ratio
 

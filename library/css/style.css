@@ -971,9 +971,9 @@ hr {display: none;}
 }
 
 .newsbones-homegrid {
-	
+	float: left;
+	display: block;
 	border-bottom: 0;
-	/* width:100%; */
 	border-right: 0;
 	margin: 4px 0px;
 	padding: 0 2px 2px 2px;
@@ -1672,7 +1672,7 @@ Small and mid-sized tablets
     margin-bottom: 0.75em;
   }
   .widget {
-    padding: 0 10px;
+    padding: 0;
     margin: 0;
   }
   .widget ul li {
@@ -1684,17 +1684,7 @@ Small and mid-sized tablets
     margin-top: 0.75em;
     padding-left: 1em;
   }
-  /* links widget */
-  /* meta widget */
-  /* pages widget */
-  /* recent-posts widget */
-  /* archives widget */
-  /* tag-cloud widget */
-  /* calendar widget */
-  /* category widget */
-  /* recent-comments widget */
-  /* search widget */
-  /* text widget */
+
   /*********************
   FOOTER STYLES
   *********************/
@@ -1721,7 +1711,7 @@ Small and mid-sized tablets
 
 .newsbones-homegrid { width:25%;
 }
-.newsbones-homepage-twitter-wrapper {width: 25%;
+.newsbones-homepage-twitter-wrapper {width: 24%;
 } 
 
 
@@ -1733,9 +1723,9 @@ Small and mid-sized tablets
 }
 
 .newsbones-homegrid {
-	width:25%;
+	width:24%;
 }
-.newsbones-homepage-twitter-wrapper {width: 25%;
+.newsbones-homepage-twitter-wrapper {width: 24%;
 } 
 
 }
