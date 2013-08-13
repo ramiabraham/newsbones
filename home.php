@@ -18,10 +18,27 @@
 						<div id="newsbones-homegrid-container" class="tencol first clearfix waterfall" role="main">
 						
 						
-							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+							<?php if (have_posts()) : while (have_posts()) : the_post(); 
 
 								
-
+									if ( has_post_format( 'status' )) { ?>
+							
+							<article <?php post_class('clearfix newsbones-homegrid'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+											  <h2 class="newsbones-status-header"><?php echo human_time_diff( get_the_time('U'), 																				current_time('timestamp') ); ?> ago:</h2>
+											    <section class="entry-content clearfix" itemprop="articleBody">
+													<p><?php the_excerpt(); ?></p>
+													<small><a href="<?php the_permalink(); ?>">Leave a comment</a></small>
+												</section> <!-- end article section -->
+											  
+							</article>
+										
+								<?php 	}	elseif ( has_post_format( 'link' )) { ?>
+							<article <?php post_class('clearfix newsbones-homegrid'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">			
+											<?php echo the_content(); ?>
+											
+							</article> 
+							
+							<?php } else { ?>
 							
 							<article <?php post_class('clearfix newsbones-homegrid'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -31,10 +48,17 @@
 									<a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) {
 													the_post_thumbnail('thumbnail');
 												} ?></a> 
+																		
 									<p class="byline vcard"><?php
+										
+										
+										
+										
 										printf(__('Written <time class="updated" datetime="%1$s" pubdate>%2$s</time> by <span class="author">%3$s</span>.', 'bonestheme'), get_the_time('Y-m-j'), get_the_time(__('F jS, Y', 'bonestheme')), bones_get_the_author_posts_link());
-									?></p><p class="homepage-meta-bottom-area"></p>
-
+									  ?></p><p class="homepage-meta-bottom-area"></p>
+									  	
+									  	
+									  	
 
 								</header> <!-- end article header -->
 										
@@ -50,6 +74,9 @@
 								<?php comments_template(); ?>
 
 							</article> <!-- end article -->
+
+							<?php } // endif for post formats ?>
+							
 
 							<?php endwhile; else : ?>
 
