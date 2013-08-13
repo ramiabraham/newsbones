@@ -246,4 +246,7 @@ add_filter ( 'post_class' , 'newsbones_oddeven_post_class' );
 global $current_class;
 $current_class = 'odd';
 
+// Add post format support
+
+add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio' ) );
 ?>
